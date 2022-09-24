@@ -13,16 +13,19 @@
     </head>
     <body>
         <h1>Age Calculator!</h1>
-        
+
         <form method = "post" action = "age"> 
-           
+
             Enter your age: <input type="text" name ="currentAge"><br>
             <input type="Submit" value ="Age next birthday">  
             <%-- submit to the URL age, which is mapped to the AgeCalculatorServlet, then AgeCalculatorServlet will run the doPost  --%>
         </form>
-        
+
         <p>${message}</p>
-        
-        
+
+        <a href="arithmetic">Arithmetic Calculator</a>
+
+
+
     </body>
 </html>
